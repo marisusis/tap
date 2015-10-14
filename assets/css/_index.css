@@ -1,0 +1,64 @@
+/*
+    Document   : css/index.css
+    Created on : 2015-10-13 01:41 PM
+    Author     : spacegeek224
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+.containter {
+    
+    
+}
+.tap-target {
+    font-size: 200px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-width: 3px;
+    border-style: solid;
+    margin: 0;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    background-color: black;
+    color: darkorange;
+    border-color: darkorange;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+}
+tart {
+    font-size: 90px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-width: 3px;
+    border-style: solid;
+    width: auto;
+    border-radius: 25px;
+    border-color: lightcyan;
+    color: lightcyan;
+}
+.tap-target.doubletap {
+    border-color: seagreen;
+    color: seagreen;
+}
+.tap-target.tap {
+    border-color: darkslateblue;
+    color: darkslateblue;  
+}
+.tap-target.hold {
+    border-color: red;
+    color: red;
+}
+.tap-target.key {
+    border-color: lightgoldenrodyellow;
+    color: lightgoldenrodyellow;
+}
